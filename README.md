@@ -1,6 +1,5 @@
 # Calculator App
 A very basic calculator application created with Java **Swing**. 
-Test lines
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Thank You!
