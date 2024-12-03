@@ -1,4 +1,4 @@
-# Calculator App
+# Calculator App 2
 
 
 A very basic calculator application created with Java **Swing**. 
