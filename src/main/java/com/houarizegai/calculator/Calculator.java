@@ -2,6 +2,10 @@ package com.houarizegai.calculator;
 
 import java.awt.Cursor;
 import java.awt.Font;
+import java.awt.Font;
+import java.awt.Font;
+import java.awt.Font;
+import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.util.function.Consumer;
@@ -26,7 +30,7 @@ public class Calculator {
             btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9,
             btnPoint, btnEqual, btnRoot, btnPower, btnLog;
 
-    private char opt = ' '; // Save the operator
+    private char opt = ' '; // Save the operator. 
     private boolean go = true; // For calculate with Opt != (=)
     private boolean addWrite = true; // Connect numbers in display
     private double val = 0; // Save the value typed for calculation
@@ -70,7 +74,7 @@ public class Calculator {
     public Calculator() {
         window = new JFrame("Calculator");
         window.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        window.setLocationRelativeTo(null); // Move window to center
+        window.setLocationRelativeTo(null); // Move window to center.  
 
         comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 30, "Theme", themeSwitchEventConsumer);
 
