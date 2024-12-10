@@ -1,6 +1,10 @@
-package com.houarizegai.calculator;
 
+package com.houarizegai.calculator;
 import java.awt.Cursor;
+import java.awt.Font;
+import java.awt.Font;
+import java.awt.Font;
+import java.awt.Font;
 import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -19,14 +23,14 @@ public class Calculator {
     private static final int MARGIN_X = 20;
     private static final int MARGIN_Y = 60;
 
-    private JFrame window; // Main window
+    private JFrame window; // Main windows
     private JComboBox<String> comboCalcType, comboTheme;
     private JTextField inText; // Input
     private JButton btnC, btnBack, btnMod, btnDiv, btnMul, btnSub, btnAdd,
             btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9,
             btnPoint, btnEqual, btnRoot, btnPower, btnLog;
 
-    private char opt = ' '; // Save the operator
+    private char opt = ' '; // Save the operator. 
     private boolean go = true; // For calculate with Opt != (=)
     private boolean addWrite = true; // Connect numbers in display
     private double val = 0; // Save the value typed for calculation
@@ -70,7 +74,7 @@ public class Calculator {
     public Calculator() {
         window = new JFrame("Calculator");
         window.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        window.setLocationRelativeTo(null); // Move window to center
+        window.setLocationRelativeTo(null); // Move window to center.  
 
         comboTheme = initCombo(new String[]{"Simple", "Colored", "DarkTheme"}, 230, 30, "Theme", themeSwitchEventConsumer);
 
