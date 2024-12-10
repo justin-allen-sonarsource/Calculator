@@ -1,5 +1,5 @@
-package com.houarizegai.calculator;
 
+package com.houarizegai.calculator;
 import java.awt.Cursor;
 import java.awt.Font;
 import java.awt.Font;
@@ -23,7 +23,7 @@ public class Calculator {
     private static final int MARGIN_X = 20;
     private static final int MARGIN_Y = 60;
 
-    private JFrame window; // Main window
+    private JFrame window; // Main windows
     private JComboBox<String> comboCalcType, comboTheme;
     private JTextField inText; // Input
     private JButton btnC, btnBack, btnMod, btnDiv, btnMul, btnSub, btnAdd,
